@@ -1,0 +1,42 @@
+
+
+.backgroud-img{
+    width: 100%;
+    height: 900px;
+    background: black;
+    background-image: url(../Images/w20.jpg);
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    filter: grayscale();
+}
+.backgroud-img:hover{
+    opacity: 1.0;
+    filter:saturate() ;
+}
+.caption{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: red;
+    margin-top: 1rem;   
+    margin-left: 7rem; 
+}
+.dfg-logo{
+    width: 20rem;
+    height: 8rem;
+    margin-left: 2rem;
+    margin-top: 8rem;
+    align-items: center;
+    filter: drop-shadow(50);
+}
+.custom-message{
+    color: wheat;
+    margin-top: 9rem;
+    margin-left: 6rem;
+}
+.para-bottom{
+    color: red;
+    margin-left: 16rem;
+    font-weight: bold;
+}
